@@ -1,0 +1,102 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "guide/onboarding/wallet1",
+              "path": "/docs/guide/onboarding/wallet1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide/onboarding/wallet2",
+              "path": "/docs/guide/onboarding/wallet2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide/onboarding/wallet3",
+              "path": "/docs/guide/onboarding/wallet3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide/onboarding/wallet4",
+              "path": "/docs/guide/onboarding/wallet4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide/setupwallet/complete",
+              "path": "/docs/guide/setupwallet/complete",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide/setupwallet/seedcreate",
+              "path": "/docs/guide/setupwallet/seedcreate",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide/setupwallet/seedimport",
+              "path": "/docs/guide/setupwallet/seedimport",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide/setupwallet/setupwallet",
+              "path": "/docs/guide/setupwallet/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide/setupwallet/walletpassword",
+              "path": "/docs/guide/setupwallet/walletpassword",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide/splash",
+              "path": "/docs/guide/splash",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide/success/success",
+              "path": "/docs/guide/success/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intall/setup-android",
+              "path": "/docs/intall/setup-android",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intall/setup-mac",
+              "path": "/docs/intall/setup-mac",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intall/start-app",
+              "path": "/docs/intall/start-app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

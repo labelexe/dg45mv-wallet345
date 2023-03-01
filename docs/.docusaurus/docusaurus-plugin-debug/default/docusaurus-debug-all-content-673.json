@@ -1,0 +1,538 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionEditUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "E:\\MyJob\\Digicorp\\dgmv-wallet\\docs\\sidebars.js",
+          "contentPath": "E:\\MyJob\\Digicorp\\dgmv-wallet\\docs\\docs",
+          "contentPathLocalized": "E:\\MyJob\\Digicorp\\dgmv-wallet\\docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "unversionedId": "guide/onboarding/wallet1",
+              "id": "guide/onboarding/wallet1",
+              "title": "Screen 1",
+              "description": "Screen 1",
+              "source": "@site/docs/guide/onboarding/wallet1.md",
+              "sourceDirName": "guide/onboarding",
+              "slug": "/guide/onboarding/wallet1",
+              "permalink": "/docs/guide/onboarding/wallet1",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/onboarding/wallet1.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Splash",
+                "permalink": "/docs/guide/splash"
+              },
+              "next": {
+                "title": "Screen 2",
+                "permalink": "/docs/guide/onboarding/wallet2"
+              }
+            },
+            {
+              "unversionedId": "guide/onboarding/wallet2",
+              "id": "guide/onboarding/wallet2",
+              "title": "Screen 2",
+              "description": "Screen 2",
+              "source": "@site/docs/guide/onboarding/wallet2.md",
+              "sourceDirName": "guide/onboarding",
+              "slug": "/guide/onboarding/wallet2",
+              "permalink": "/docs/guide/onboarding/wallet2",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/onboarding/wallet2.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Screen 1",
+                "permalink": "/docs/guide/onboarding/wallet1"
+              },
+              "next": {
+                "title": "Screen 3",
+                "permalink": "/docs/guide/onboarding/wallet3"
+              }
+            },
+            {
+              "unversionedId": "guide/onboarding/wallet3",
+              "id": "guide/onboarding/wallet3",
+              "title": "Screen 3",
+              "description": "Screen 3",
+              "source": "@site/docs/guide/onboarding/wallet3.md",
+              "sourceDirName": "guide/onboarding",
+              "slug": "/guide/onboarding/wallet3",
+              "permalink": "/docs/guide/onboarding/wallet3",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/onboarding/wallet3.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Screen 2",
+                "permalink": "/docs/guide/onboarding/wallet2"
+              },
+              "next": {
+                "title": "Screen 4",
+                "permalink": "/docs/guide/onboarding/wallet4"
+              }
+            },
+            {
+              "unversionedId": "guide/onboarding/wallet4",
+              "id": "guide/onboarding/wallet4",
+              "title": "Screen 4",
+              "description": "Screen 4",
+              "source": "@site/docs/guide/onboarding/wallet4.md",
+              "sourceDirName": "guide/onboarding",
+              "slug": "/guide/onboarding/wallet4",
+              "permalink": "/docs/guide/onboarding/wallet4",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/onboarding/wallet4.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Screen 3",
+                "permalink": "/docs/guide/onboarding/wallet3"
+              },
+              "next": {
+                "title": "Setup Wallet",
+                "permalink": "/docs/guide/setupwallet/"
+              }
+            },
+            {
+              "unversionedId": "guide/setupwallet/complete",
+              "id": "guide/setupwallet/complete",
+              "title": "Complete Setup",
+              "description": "Seed Show Blur",
+              "source": "@site/docs/guide/setupwallet/complete.md",
+              "sourceDirName": "guide/setupwallet",
+              "slug": "/guide/setupwallet/complete",
+              "permalink": "/docs/guide/setupwallet/complete",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/setupwallet/complete.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Input Seed",
+                "permalink": "/docs/guide/setupwallet/seedimport"
+              },
+              "next": {
+                "title": "Creating Wallet Password",
+                "permalink": "/docs/guide/setupwallet/walletpassword"
+              }
+            },
+            {
+              "unversionedId": "guide/setupwallet/seedcreate",
+              "id": "guide/setupwallet/seedcreate",
+              "title": "Creating Seed",
+              "description": "Seed Create",
+              "source": "@site/docs/guide/setupwallet/seedcreate.md",
+              "sourceDirName": "guide/setupwallet",
+              "slug": "/guide/setupwallet/seedcreate",
+              "permalink": "/docs/guide/setupwallet/seedcreate",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/setupwallet/seedcreate.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Setup Wallet",
+                "permalink": "/docs/guide/setupwallet/"
+              },
+              "next": {
+                "title": "Input Seed",
+                "permalink": "/docs/guide/setupwallet/seedimport"
+              }
+            },
+            {
+              "unversionedId": "guide/setupwallet/seedimport",
+              "id": "guide/setupwallet/seedimport",
+              "title": "Input Seed",
+              "description": "Warning",
+              "source": "@site/docs/guide/setupwallet/seedimport.md",
+              "sourceDirName": "guide/setupwallet",
+              "slug": "/guide/setupwallet/seedimport",
+              "permalink": "/docs/guide/setupwallet/seedimport",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/setupwallet/seedimport.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Creating Seed",
+                "permalink": "/docs/guide/setupwallet/seedcreate"
+              },
+              "next": {
+                "title": "Complete Setup",
+                "permalink": "/docs/guide/setupwallet/complete"
+              }
+            },
+            {
+              "unversionedId": "guide/setupwallet/setupwallet",
+              "id": "guide/setupwallet/setupwallet",
+              "title": "Setup Wallet",
+              "description": "Setup Screen",
+              "source": "@site/docs/guide/setupwallet/setupwallet.md",
+              "sourceDirName": "guide/setupwallet",
+              "slug": "/guide/setupwallet/",
+              "permalink": "/docs/guide/setupwallet/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/setupwallet/setupwallet.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Screen 4",
+                "permalink": "/docs/guide/onboarding/wallet4"
+              },
+              "next": {
+                "title": "Creating Seed",
+                "permalink": "/docs/guide/setupwallet/seedcreate"
+              }
+            },
+            {
+              "unversionedId": "guide/setupwallet/walletpassword",
+              "id": "guide/setupwallet/walletpassword",
+              "title": "Creating Wallet Password",
+              "description": "Wallet Password",
+              "source": "@site/docs/guide/setupwallet/walletpassword.md",
+              "sourceDirName": "guide/setupwallet",
+              "slug": "/guide/setupwallet/walletpassword",
+              "permalink": "/docs/guide/setupwallet/walletpassword",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/setupwallet/walletpassword.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Complete Setup",
+                "permalink": "/docs/guide/setupwallet/complete"
+              },
+              "next": {
+                "title": "Complete",
+                "permalink": "/docs/guide/success/"
+              }
+            },
+            {
+              "unversionedId": "guide/splash",
+              "id": "guide/splash",
+              "title": "Splash",
+              "description": "Splash",
+              "source": "@site/docs/guide/splash.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/splash",
+              "permalink": "/docs/guide/splash",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/splash.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Start your app",
+                "permalink": "/docs/intall/start-app"
+              },
+              "next": {
+                "title": "Screen 1",
+                "permalink": "/docs/guide/onboarding/wallet1"
+              }
+            },
+            {
+              "unversionedId": "guide/success/success",
+              "id": "guide/success/success",
+              "title": "Complete",
+              "description": "Success Screen",
+              "source": "@site/docs/guide/success/success.md",
+              "sourceDirName": "guide/success",
+              "slug": "/guide/success/",
+              "permalink": "/docs/guide/success/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/success/success.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Creating Wallet Password",
+                "permalink": "/docs/guide/setupwallet/walletpassword"
+              }
+            },
+            {
+              "unversionedId": "intall/setup-android",
+              "id": "intall/setup-android",
+              "title": "Setup Environment For Android",
+              "description": "What you'll need",
+              "source": "@site/docs/intall/setup-android.md",
+              "sourceDirName": "intall",
+              "slug": "/intall/setup-android",
+              "permalink": "/docs/intall/setup-android",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intall/setup-android.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Setup Environment For iOS",
+                "permalink": "/docs/intall/setup-mac"
+              }
+            },
+            {
+              "unversionedId": "intall/setup-mac",
+              "id": "intall/setup-mac",
+              "title": "Setup Environment For iOS",
+              "description": "What you'll need",
+              "source": "@site/docs/intall/setup-mac.md",
+              "sourceDirName": "intall",
+              "slug": "/intall/setup-mac",
+              "permalink": "/docs/intall/setup-mac",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intall/setup-mac.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Setup Environment For Android",
+                "permalink": "/docs/intall/setup-android"
+              },
+              "next": {
+                "title": "Start your app",
+                "permalink": "/docs/intall/start-app"
+              }
+            },
+            {
+              "unversionedId": "intall/start-app",
+              "id": "intall/start-app",
+              "title": "Start your app",
+              "description": "Run the android version:",
+              "source": "@site/docs/intall/start-app.md",
+              "sourceDirName": "intall",
+              "slug": "/intall/start-app",
+              "permalink": "/docs/intall/start-app",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intall/start-app.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Setup Environment For iOS",
+                "permalink": "/docs/intall/setup-mac"
+              },
+              "next": {
+                "title": "Splash",
+                "permalink": "/docs/guide/splash"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Introduction",
+              "description": "DigiMetaverse Wallet gives you full control over your self sovereign idenity. Manage payments, ownership and authentication in one single crossplatform Application.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Setup Environment For Android",
+                "permalink": "/docs/intall/setup-android"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Installation",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "intall/setup-android"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "intall/setup-mac"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "intall/start-app"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "User Guide",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "guide/splash"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Onboarding",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "guide/onboarding/wallet1"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "guide/onboarding/wallet2"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "guide/onboarding/wallet3"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "guide/onboarding/wallet4"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Setup Wallet",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "guide/setupwallet/seedcreate"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "guide/setupwallet/seedimport"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "guide/setupwallet/complete"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "guide/setupwallet/walletpassword"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "guide/setupwallet/setupwallet"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Complete",
+                    "id": "guide/success/success"
+                  }
+                ]
+              }
+            ]
+          },
+          "mainDocId": "intro",
+          "categoryGeneratedIndices": []
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": null,
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {}
+}

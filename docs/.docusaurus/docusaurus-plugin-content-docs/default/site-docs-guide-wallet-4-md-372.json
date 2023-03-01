@@ -1,0 +1,26 @@
+{
+  "unversionedId": "guide/wallet4",
+  "id": "guide/wallet4",
+  "title": "Onboarding Screen 4",
+  "description": "Splash Screen",
+  "source": "@site/docs/guide/wallet4.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/wallet4",
+  "permalink": "/docs/guide/wallet4",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/wallet4.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Onboarding Screen 3",
+    "permalink": "/docs/guide/wallet3"
+  },
+  "next": {
+    "title": "Setup Wallet",
+    "permalink": "/docs/guide/setup"
+  }
+}

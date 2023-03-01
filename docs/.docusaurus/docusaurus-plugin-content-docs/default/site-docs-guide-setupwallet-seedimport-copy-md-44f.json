@@ -1,0 +1,22 @@
+{
+  "unversionedId": "guide/setupwallet/seedimport copy",
+  "id": "guide/setupwallet/seedimport copy",
+  "title": "Complete Setup",
+  "description": "Seed Show Blur",
+  "source": "@site/docs/guide/setupwallet/seedimport copy.md",
+  "sourceDirName": "guide/setupwallet",
+  "slug": "/guide/setupwallet/seedimport copy",
+  "permalink": "/docs/guide/setupwallet/seedimport copy",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/setupwallet/seedimport copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Input Seed",
+    "permalink": "/docs/guide/setupwallet/seedimport"
+  }
+}

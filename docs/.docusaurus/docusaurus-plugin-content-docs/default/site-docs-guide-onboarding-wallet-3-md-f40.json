@@ -1,0 +1,26 @@
+{
+  "unversionedId": "guide/onboarding/wallet3",
+  "id": "guide/onboarding/wallet3",
+  "title": "Screen 3",
+  "description": "Screen 3",
+  "source": "@site/docs/guide/onboarding/wallet3.md",
+  "sourceDirName": "guide/onboarding",
+  "slug": "/guide/onboarding/wallet3",
+  "permalink": "/docs/guide/onboarding/wallet3",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/onboarding/wallet3.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Screen 2",
+    "permalink": "/docs/guide/onboarding/wallet2"
+  },
+  "next": {
+    "title": "Screen 4",
+    "permalink": "/docs/guide/onboarding/wallet4"
+  }
+}
