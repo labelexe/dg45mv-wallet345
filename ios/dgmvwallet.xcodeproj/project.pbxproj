@@ -1,0 +1,1305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* dgmvwalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* dgmvwalletTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		183713D20C814FE6869E9445 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E7174C8CFC1453196027412 /* Lato-Black.ttf */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* dgmvwalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* dgmvwalletTests.m */; };
+		308944B225CB4938ACAC9B05 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222620781DE647DF9F9F8614 /* Lato-Light.ttf */; };
+		499C6B7B70884135B22F1C40 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF3A42E468F248E0B1C3198E /* Lato-Regular.ttf */; };
+		4D20015D09744EB08B00D81E /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EFDC59D46914B6AB88E2819 /* Lato-ThinItalic.ttf */; };
+		74B7BD441CC94785BD39BE51 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7D77A1443C34117896CEAB9 /* Lato-Italic.ttf */; };
+		7620058D7C40448CBAA8DD40 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CFBC87274634EF2A2A12443 /* Lato-BoldItalic.ttf */; };
+		79058DE39AF6444F95757163 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66D2697AAD4145DD9C033091 /* Lato-Bold.ttf */; };
+		7BBAD902B3C1185D2370C729 /* libPods-dgmvwallet-dgmvwalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F3B101BA9738383010688 /* libPods-dgmvwallet-dgmvwalletTests.a */; };
+		A726E99327C4C42F00F7168A /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77F655727C36FF700484033 /* AuthenticationServices.framework */; };
+		A726E99B27C4D1F400F7168A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A726E99A27C4D1F400F7168A /* Test.swift */; };
+		A746382527DB36FF002DD692 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A746382427DB36FE002DD692 /* Globals.swift */; };
+		A746382627DB36FF002DD692 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A746382427DB36FE002DD692 /* Globals.swift */; };
+		A75A0CFE27CE3F8100F27A2A /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E7174C8CFC1453196027412 /* Lato-Black.ttf */; };
+		A75A0CFF27CE3F8400F27A2A /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF3A42E468F248E0B1C3198E /* Lato-Regular.ttf */; };
+		A75A0D0027CE3F8400F27A2A /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222620781DE647DF9F9F8614 /* Lato-Light.ttf */; };
+		A75A0D0127CE3F8400F27A2A /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66D2697AAD4145DD9C033091 /* Lato-Bold.ttf */; };
+		A75A0D0227CE3F8400F27A2A /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7D77A1443C34117896CEAB9 /* Lato-Italic.ttf */; };
+		A75A0D0327CE3F8400F27A2A /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08EAD39D183649428C94F7C6 /* Lato-Thin.ttf */; };
+		A75A0D0427CE3F8400F27A2A /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 789BF4F3EBD14A69BF9398DB /* Lato-BlackItalic.ttf */; };
+		A75A0D0527CE3F8400F27A2A /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EFDC59D46914B6AB88E2819 /* Lato-ThinItalic.ttf */; };
+		A75A0D0627CE3F8400F27A2A /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DFFBFE5FC9E402887DD02AB /* Lato-LightItalic.ttf */; };
+		A75A0D0727CE3F8400F27A2A /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CFBC87274634EF2A2A12443 /* Lato-BoldItalic.ttf */; };
+		A76E7ED427C50B4E0031AC08 /* CredentialProviderRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E7ECB27C4EA220031AC08 /* CredentialProviderRequest.m */; };
+		A76E7EDA27C517240031AC08 /* CredentialProviderRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E7ECB27C4EA220031AC08 /* CredentialProviderRequest.m */; };
+		A77F655F27C3759000484033 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77F655727C36FF700484033 /* AuthenticationServices.framework */; };
+		A77F656227C3759000484033 /* CredentialProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77F656127C3759000484033 /* CredentialProviderViewController.swift */; };
+		A77F656527C3759000484033 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77F656327C3759000484033 /* MainInterface.storyboard */; };
+		A77F656A27C3759000484033 /* DGMV Authenticator Credential Provider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A77F655E27C3759000484033 /* DGMV Authenticator Credential Provider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A77F656F27C4B48100484033 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		B68E90F73C903E3928D7DBDA /* libPods-dgmvwallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6765E9854DAAF272627EE753 /* libPods-dgmvwallet.a */; };
+		B9B4511EB2C14F08BE6E1927 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DFFBFE5FC9E402887DD02AB /* Lato-LightItalic.ttf */; };
+		D7BE1D1D1A8340F490E37750 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08EAD39D183649428C94F7C6 /* Lato-Thin.ttf */; };
+		E8280A8ADEBE74544EC1C827 /* libPods-dgmvwallet-DGMV Authenticator Credential Provider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450D46F6C338AFEFE965CDC /* libPods-dgmvwallet-DGMV Authenticator Credential Provider.a */; };
+		FF3617894B28492C8BC79538 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 789BF4F3EBD14A69BF9398DB /* Lato-BlackItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = dgmvwallet;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "dgmvwallet-tvOS";
+		};
+		A77F656827C3759000484033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A77F655D27C3759000484033;
+			remoteInfo = "DGMV Authenticator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A77F656E27C3759000484033 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A77F656A27C3759000484033 /* DGMV Authenticator Credential Provider.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* dgmvwalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dgmvwalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* dgmvwalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dgmvwalletTests.m; sourceTree = "<group>"; };
+		08EAD39D183649428C94F7C6 /* Lato-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Thin.ttf"; path = "../assets/fonts/Lato/Lato-Thin.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* dgmvwallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dgmvwallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = dgmvwallet/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = dgmvwallet/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = dgmvwallet/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = dgmvwallet/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = dgmvwallet/main.m; sourceTree = "<group>"; };
+		1D8F3B101BA9738383010688 /* libPods-dgmvwallet-dgmvwalletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dgmvwallet-dgmvwalletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7174C8CFC1453196027412 /* Lato-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Black.ttf"; path = "../assets/fonts/Lato/Lato-Black.ttf"; sourceTree = "<group>"; };
+		222620781DE647DF9F9F8614 /* Lato-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Light.ttf"; path = "../assets/fonts/Lato/Lato-Light.ttf"; sourceTree = "<group>"; };
+		2349001FDE457D1B35EC09DF /* Pods-dgmvwalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dgmvwalletTests.debug.xcconfig"; path = "Target Support Files/Pods-dgmvwalletTests/Pods-dgmvwalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		26C54950692C700E50B2A8D6 /* Pods-DGMV Authenticator Credential Provider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGMV Authenticator Credential Provider.debug.xcconfig"; path = "Target Support Files/Pods-DGMV Authenticator Credential Provider/Pods-DGMV Authenticator Credential Provider.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* dgmvwallet-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dgmvwallet-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* dgmvwallet-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dgmvwallet-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFDC59D46914B6AB88E2819 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-ThinItalic.ttf"; path = "../assets/fonts/Lato/Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4053A29948636998625DA4CE /* Pods-dgmvwallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dgmvwallet.debug.xcconfig"; path = "Target Support Files/Pods-dgmvwallet/Pods-dgmvwallet.debug.xcconfig"; sourceTree = "<group>"; };
+		4CFBC87274634EF2A2A12443 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-BoldItalic.ttf"; path = "../assets/fonts/Lato/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		66D2697AAD4145DD9C033091 /* Lato-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Bold.ttf"; path = "../assets/fonts/Lato/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		6765E9854DAAF272627EE753 /* libPods-dgmvwallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dgmvwallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E39E6A7F3858873CED00A3 /* Pods-dgmvwallet-dgmvwalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dgmvwallet-dgmvwalletTests.release.xcconfig"; path = "Target Support Files/Pods-dgmvwallet-dgmvwalletTests/Pods-dgmvwallet-dgmvwalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		789BF4F3EBD14A69BF9398DB /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-BlackItalic.ttf"; path = "../assets/fonts/Lato/Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		8C0CA86E0F49D0A381FBA9AC /* Pods-dgmvwalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dgmvwalletTests.release.xcconfig"; path = "Target Support Files/Pods-dgmvwalletTests/Pods-dgmvwalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DFFBFE5FC9E402887DD02AB /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-LightItalic.ttf"; path = "../assets/fonts/Lato/Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		A726E99927C4D1F400F7168A /* dgmvwallet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dgmvwallet-Bridging-Header.h"; sourceTree = "<group>"; };
+		A726E99A27C4D1F400F7168A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		A746382427DB36FE002DD692 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		A76D916827C60C1100D0E7CC /* CredentialProvider-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CredentialProvider-Bridging-Header.h"; sourceTree = "<group>"; };
+		A76D916927C60D2B00D0E7CC /* CredentialProviderRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CredentialProviderRequest.h; sourceTree = "<group>"; };
+		A76D916A27C6282B00D0E7CC /* CredentialProviderRequestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CredentialProviderRequestProtocol.h; sourceTree = "<group>"; };
+		A76E7ECB27C4EA220031AC08 /* CredentialProviderRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CredentialProviderRequest.m; sourceTree = "<group>"; };
+		A77F655627C36FF700484033 /* dgmvwallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = dgmvwallet.entitlements; path = dgmvwallet/dgmvwallet.entitlements; sourceTree = "<group>"; };
+		A77F655727C36FF700484033 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		A77F655E27C3759000484033 /* DGMV Authenticator Credential Provider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DGMV Authenticator Credential Provider.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77F656127C3759000484033 /* CredentialProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialProviderViewController.swift; sourceTree = "<group>"; };
+		A77F656427C3759000484033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A77F656627C3759000484033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77F656727C3759000484033 /* DGMV_Authenticator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DGMV_Authenticator.entitlements; sourceTree = "<group>"; };
+		A7D77A1443C34117896CEAB9 /* Lato-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Italic.ttf"; path = "../assets/fonts/Lato/Lato-Italic.ttf"; sourceTree = "<group>"; };
+		B450D46F6C338AFEFE965CDC /* libPods-dgmvwallet-DGMV Authenticator Credential Provider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dgmvwallet-DGMV Authenticator Credential Provider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3A42E468F248E0B1C3198E /* Lato-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		D32B06931B48E32DEC037E80 /* Pods-dgmvwallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dgmvwallet.release.xcconfig"; path = "Target Support Files/Pods-dgmvwallet/Pods-dgmvwallet.release.xcconfig"; sourceTree = "<group>"; };
+		DE05A488A3E7AE068F3E5D8B /* Pods-DGMV Authenticator Credential Provider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGMV Authenticator Credential Provider.release.xcconfig"; path = "Target Support Files/Pods-DGMV Authenticator Credential Provider/Pods-DGMV Authenticator Credential Provider.release.xcconfig"; sourceTree = "<group>"; };
+		DFDE107EC46CA236DD8BDD7A /* Pods-dgmvwallet-DGMV Authenticator Credential Provider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dgmvwallet-DGMV Authenticator Credential Provider.release.xcconfig"; path = "Target Support Files/Pods-dgmvwallet-DGMV Authenticator Credential Provider/Pods-dgmvwallet-DGMV Authenticator Credential Provider.release.xcconfig"; sourceTree = "<group>"; };
+		E00F15C2E7B0781AC8EC29B5 /* Pods-dgmvwallet-DGMV Authenticator Credential Provider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dgmvwallet-DGMV Authenticator Credential Provider.debug.xcconfig"; path = "Target Support Files/Pods-dgmvwallet-DGMV Authenticator Credential Provider/Pods-dgmvwallet-DGMV Authenticator Credential Provider.debug.xcconfig"; sourceTree = "<group>"; };
+		E16D38C141963AA6B680D504 /* Pods-dgmvwallet-dgmvwalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dgmvwallet-dgmvwalletTests.debug.xcconfig"; path = "Target Support Files/Pods-dgmvwallet-dgmvwalletTests/Pods-dgmvwallet-dgmvwalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBAD902B3C1185D2370C729 /* libPods-dgmvwallet-dgmvwalletTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A726E99327C4C42F00F7168A /* AuthenticationServices.framework in Frameworks */,
+				B68E90F73C903E3928D7DBDA /* libPods-dgmvwallet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77F655B27C3759000484033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77F655F27C3759000484033 /* AuthenticationServices.framework in Frameworks */,
+				E8280A8ADEBE74544EC1C827 /* libPods-dgmvwallet-DGMV Authenticator Credential Provider.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* dgmvwalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* dgmvwalletTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = dgmvwalletTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* dgmvwallet */ = {
+			isa = PBXGroup;
+			children = (
+				A726E99927C4D1F400F7168A /* dgmvwallet-Bridging-Header.h */,
+				A77F657027C4B57200484033 /* Components */,
+				A77F655627C36FF700484033 /* dgmvwallet.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				A746382427DB36FE002DD692 /* Globals.swift */,
+			);
+			name = dgmvwallet;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A77F655727C36FF700484033 /* AuthenticationServices.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				6765E9854DAAF272627EE753 /* libPods-dgmvwallet.a */,
+				B450D46F6C338AFEFE965CDC /* libPods-dgmvwallet-DGMV Authenticator Credential Provider.a */,
+				1D8F3B101BA9738383010688 /* libPods-dgmvwallet-dgmvwalletTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47A77FC460B24CA78288D670 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E7174C8CFC1453196027412 /* Lato-Black.ttf */,
+				789BF4F3EBD14A69BF9398DB /* Lato-BlackItalic.ttf */,
+				66D2697AAD4145DD9C033091 /* Lato-Bold.ttf */,
+				4CFBC87274634EF2A2A12443 /* Lato-BoldItalic.ttf */,
+				A7D77A1443C34117896CEAB9 /* Lato-Italic.ttf */,
+				222620781DE647DF9F9F8614 /* Lato-Light.ttf */,
+				8DFFBFE5FC9E402887DD02AB /* Lato-LightItalic.ttf */,
+				CF3A42E468F248E0B1C3198E /* Lato-Regular.ttf */,
+				08EAD39D183649428C94F7C6 /* Lato-Thin.ttf */,
+				2EFDC59D46914B6AB88E2819 /* Lato-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* dgmvwallet */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* dgmvwalletTests */,
+				A77F656027C3759000484033 /* dgmvCredentialProvider */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				A55C5223451D4351FF38E1A8 /* Pods */,
+				47A77FC460B24CA78288D670 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* dgmvwallet.app */,
+				00E356EE1AD99517003FC87E /* dgmvwalletTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* dgmvwallet-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* dgmvwallet-tvOSTests.xctest */,
+				A77F655E27C3759000484033 /* DGMV Authenticator Credential Provider.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A55C5223451D4351FF38E1A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4053A29948636998625DA4CE /* Pods-dgmvwallet.debug.xcconfig */,
+				D32B06931B48E32DEC037E80 /* Pods-dgmvwallet.release.xcconfig */,
+				2349001FDE457D1B35EC09DF /* Pods-dgmvwalletTests.debug.xcconfig */,
+				8C0CA86E0F49D0A381FBA9AC /* Pods-dgmvwalletTests.release.xcconfig */,
+				E16D38C141963AA6B680D504 /* Pods-dgmvwallet-dgmvwalletTests.debug.xcconfig */,
+				73E39E6A7F3858873CED00A3 /* Pods-dgmvwallet-dgmvwalletTests.release.xcconfig */,
+				26C54950692C700E50B2A8D6 /* Pods-DGMV Authenticator Credential Provider.debug.xcconfig */,
+				DE05A488A3E7AE068F3E5D8B /* Pods-DGMV Authenticator Credential Provider.release.xcconfig */,
+				E00F15C2E7B0781AC8EC29B5 /* Pods-dgmvwallet-DGMV Authenticator Credential Provider.debug.xcconfig */,
+				DFDE107EC46CA236DD8BDD7A /* Pods-dgmvwallet-DGMV Authenticator Credential Provider.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A76D916B27C6303000D0E7CC /* CredentialProviderRequest */ = {
+			isa = PBXGroup;
+			children = (
+				A76D916927C60D2B00D0E7CC /* CredentialProviderRequest.h */,
+				A76E7ECB27C4EA220031AC08 /* CredentialProviderRequest.m */,
+				A76D916A27C6282B00D0E7CC /* CredentialProviderRequestProtocol.h */,
+			);
+			path = CredentialProviderRequest;
+			sourceTree = "<group>";
+		};
+		A77F656027C3759000484033 /* dgmvCredentialProvider */ = {
+			isa = PBXGroup;
+			children = (
+				A77F656627C3759000484033 /* Info.plist */,
+				A77F656327C3759000484033 /* MainInterface.storyboard */,
+				A77F656727C3759000484033 /* DGMV_Authenticator.entitlements */,
+				A77F656127C3759000484033 /* CredentialProviderViewController.swift */,
+				A76D916827C60C1100D0E7CC /* CredentialProvider-Bridging-Header.h */,
+				A76D916B27C6303000D0E7CC /* CredentialProviderRequest */,
+			);
+			path = dgmvCredentialProvider;
+			sourceTree = "<group>";
+		};
+		A77F657027C4B57200484033 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A726E99A27C4D1F400F7168A /* Test.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* dgmvwalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "dgmvwalletTests" */;
+			buildPhases = (
+				F5C2C795240EF37F2A0ADB3D /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C39D24508B831663F5A46D89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = dgmvwalletTests;
+			productName = dgmvwalletTests;
+			productReference = 00E356EE1AD99517003FC87E /* dgmvwalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* dgmvwallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "dgmvwallet" */;
+			buildPhases = (
+				AB8C74148191F2638E2F96AC /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				A77F656E27C3759000484033 /* Embed App Extensions */,
+				6EF0336D827995FDB1050AC1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A77F656927C3759000484033 /* PBXTargetDependency */,
+			);
+			name = dgmvwallet;
+			productName = dgmvwallet;
+			productReference = 13B07F961A680F5B00A75B9A /* dgmvwallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* dgmvwallet-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "dgmvwallet-tvOS" */;
+			buildPhases = (
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dgmvwallet-tvOS";
+			productName = "dgmvwallet-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* dgmvwallet-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* dgmvwallet-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "dgmvwallet-tvOSTests" */;
+			buildPhases = (
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "dgmvwallet-tvOSTests";
+			productName = "dgmvwallet-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* dgmvwallet-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A77F655D27C3759000484033 /* DGMV Authenticator Credential Provider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77F656B27C3759000484033 /* Build configuration list for PBXNativeTarget "DGMV Authenticator Credential Provider" */;
+			buildPhases = (
+				FA1594DDA15F0D5441CC77A7 /* [CP] Check Pods Manifest.lock */,
+				A77F655A27C3759000484033 /* Sources */,
+				A77F655B27C3759000484033 /* Frameworks */,
+				A77F655C27C3759000484033 /* Resources */,
+				348D3E34C5922DFD3417E0C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DGMV Authenticator Credential Provider";
+			productName = "DGMV Authenticator";
+			productReference = A77F655E27C3759000484033 /* DGMV Authenticator Credential Provider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = "DigiCorp Labs";
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 798R5DMP74;
+						LastSwiftMigration = 1320;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+					A77F655D27C3759000484033 = {
+						CreatedOnToolsVersion = 13.2.1;
+						DevelopmentTeam = 798R5DMP74;
+						LastSwiftMigration = 1320;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "dgmvwallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* dgmvwallet */,
+				00E356ED1AD99517003FC87E /* dgmvwalletTests */,
+				2D02E47A1E0B4A5D006451C7 /* dgmvwallet-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* dgmvwallet-tvOSTests */,
+				A77F655D27C3759000484033 /* DGMV Authenticator Credential Provider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				183713D20C814FE6869E9445 /* Lato-Black.ttf in Resources */,
+				FF3617894B28492C8BC79538 /* Lato-BlackItalic.ttf in Resources */,
+				79058DE39AF6444F95757163 /* Lato-Bold.ttf in Resources */,
+				7620058D7C40448CBAA8DD40 /* Lato-BoldItalic.ttf in Resources */,
+				74B7BD441CC94785BD39BE51 /* Lato-Italic.ttf in Resources */,
+				308944B225CB4938ACAC9B05 /* Lato-Light.ttf in Resources */,
+				B9B4511EB2C14F08BE6E1927 /* Lato-LightItalic.ttf in Resources */,
+				499C6B7B70884135B22F1C40 /* Lato-Regular.ttf in Resources */,
+				D7BE1D1D1A8340F490E37750 /* Lato-Thin.ttf in Resources */,
+				4D20015D09744EB08B00D81E /* Lato-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77F655C27C3759000484033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75A0D0627CE3F8400F27A2A /* Lato-LightItalic.ttf in Resources */,
+				A75A0D0027CE3F8400F27A2A /* Lato-Light.ttf in Resources */,
+				A75A0D0327CE3F8400F27A2A /* Lato-Thin.ttf in Resources */,
+				A75A0D0727CE3F8400F27A2A /* Lato-BoldItalic.ttf in Resources */,
+				A75A0D0227CE3F8400F27A2A /* Lato-Italic.ttf in Resources */,
+				A75A0D0127CE3F8400F27A2A /* Lato-Bold.ttf in Resources */,
+				A77F656527C3759000484033 /* MainInterface.storyboard in Resources */,
+				A75A0D0427CE3F8400F27A2A /* Lato-BlackItalic.ttf in Resources */,
+				A75A0CFE27CE3F8100F27A2A /* Lato-Black.ttf in Resources */,
+				A75A0D0527CE3F8400F27A2A /* Lato-ThinItalic.ttf in Resources */,
+				A77F656F27C4B48100484033 /* Images.xcassets in Resources */,
+				A75A0CFF27CE3F8400F27A2A /* Lato-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		348D3E34C5922DFD3417E0C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dgmvwallet-DGMV Authenticator Credential Provider/Pods-dgmvwallet-DGMV Authenticator Credential Provider-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dgmvwallet-DGMV Authenticator Credential Provider/Pods-dgmvwallet-DGMV Authenticator Credential Provider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EF0336D827995FDB1050AC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dgmvwallet/Pods-dgmvwallet-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dgmvwallet/Pods-dgmvwallet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB8C74148191F2638E2F96AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dgmvwallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C39D24508B831663F5A46D89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dgmvwallet-dgmvwalletTests/Pods-dgmvwallet-dgmvwalletTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dgmvwallet-dgmvwalletTests/Pods-dgmvwallet-dgmvwalletTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5C2C795240EF37F2A0ADB3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dgmvwallet-dgmvwalletTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA1594DDA15F0D5441CC77A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dgmvwallet-DGMV Authenticator Credential Provider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* dgmvwalletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				A76E7EDA27C517240031AC08 /* CredentialProviderRequest.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				A746382527DB36FF002DD692 /* Globals.swift in Sources */,
+				A726E99B27C4D1F400F7168A /* Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* dgmvwalletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77F655A27C3759000484033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77F656227C3759000484033 /* CredentialProviderViewController.swift in Sources */,
+				A76E7ED427C50B4E0031AC08 /* CredentialProviderRequest.m in Sources */,
+				A746382627DB36FF002DD692 /* Globals.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* dgmvwallet */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* dgmvwallet-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+		A77F656927C3759000484033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A77F655D27C3759000484033 /* DGMV Authenticator Credential Provider */;
+			targetProxy = A77F656827C3759000484033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = dgmvwallet;
+			sourceTree = "<group>";
+		};
+		A77F656327C3759000484033 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77F656427C3759000484033 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16D38C141963AA6B680D504 /* Pods-dgmvwallet-dgmvwalletTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dgmvwalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dgmvwallet.app/dgmvwallet";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E39E6A7F3858873CED00A3 /* Pods-dgmvwallet-dgmvwalletTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = dgmvwalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dgmvwallet.app/dgmvwallet";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4053A29948636998625DA4CE /* Pods-dgmvwallet.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = dgmvwallet/dgmvwallet.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 798R5DMP74;
+				INFOPLIST_FILE = dgmvwallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.digicorplabs.dgmvapp;
+				PRODUCT_NAME = dgmvwallet;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "dgmvwallet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D32B06931B48E32DEC037E80 /* Pods-dgmvwallet.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = dgmvwallet/dgmvwallet.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 798R5DMP74;
+				INFOPLIST_FILE = dgmvwallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.digicorplabs.dgmvapp;
+				PRODUCT_NAME = dgmvwallet;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "dgmvwallet-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "dgmvwallet-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.dgmvwallet-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "dgmvwallet-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.dgmvwallet-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "dgmvwallet-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.dgmvwallet-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dgmvwallet-tvOS.app/dgmvwallet-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "dgmvwallet-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.dgmvwallet-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dgmvwallet-tvOS.app/dgmvwallet-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DISABLE_MANUAL_TARGET_ORDER_BUILD_WARNING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = /usr/lib/swift;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DISABLE_MANUAL_TARGET_ORDER_BUILD_WARNING = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = /usr/lib/swift;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A77F656C27C3759000484033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E00F15C2E7B0781AC8EC29B5 /* Pods-dgmvwallet-DGMV Authenticator Credential Provider.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = dgmvCredentialProvider/DGMV_Authenticator.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 798R5DMP74;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dgmvCredentialProvider/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DGMV Authenticator";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Facebook. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digicorplabs.dgmvapp.cp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/dgmvCredentialProvider/CredentialProvider-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A77F656D27C3759000484033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFDE107EC46CA236DD8BDD7A /* Pods-dgmvwallet-DGMV Authenticator Credential Provider.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = dgmvCredentialProvider/DGMV_Authenticator.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 798R5DMP74;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dgmvCredentialProvider/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DGMV Authenticator";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Facebook. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digicorplabs.dgmvapp.cp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/dgmvCredentialProvider/CredentialProvider-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "dgmvwalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "dgmvwallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "dgmvwallet-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "dgmvwallet-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "dgmvwallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77F656B27C3759000484033 /* Build configuration list for PBXNativeTarget "DGMV Authenticator Credential Provider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77F656C27C3759000484033 /* Debug */,
+				A77F656D27C3759000484033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

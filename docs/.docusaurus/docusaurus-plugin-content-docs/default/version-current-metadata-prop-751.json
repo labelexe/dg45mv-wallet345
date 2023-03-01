@@ -1,0 +1,222 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Installation",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Setup Environment For Android",
+            "href": "/docs/intall/setup-android",
+            "docId": "intall/setup-android"
+          },
+          {
+            "type": "link",
+            "label": "Setup Environment For iOS",
+            "href": "/docs/intall/setup-mac",
+            "docId": "intall/setup-mac"
+          },
+          {
+            "type": "link",
+            "label": "Start your app",
+            "href": "/docs/intall/start-app",
+            "docId": "intall/start-app"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "User Guide",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Splash",
+            "href": "/docs/guide/splash",
+            "docId": "guide/splash"
+          },
+          {
+            "type": "category",
+            "label": "Onboarding",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Screen 1",
+                "href": "/docs/guide/onboarding/wallet1",
+                "docId": "guide/onboarding/wallet1"
+              },
+              {
+                "type": "link",
+                "label": "Screen 2",
+                "href": "/docs/guide/onboarding/wallet2",
+                "docId": "guide/onboarding/wallet2"
+              },
+              {
+                "type": "link",
+                "label": "Screen 3",
+                "href": "/docs/guide/onboarding/wallet3",
+                "docId": "guide/onboarding/wallet3"
+              },
+              {
+                "type": "link",
+                "label": "Screen 4",
+                "href": "/docs/guide/onboarding/wallet4",
+                "docId": "guide/onboarding/wallet4"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Setup Wallet",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Creating Seed",
+                "href": "/docs/guide/setupwallet/seedcreate",
+                "docId": "guide/setupwallet/seedcreate"
+              },
+              {
+                "type": "link",
+                "label": "Input Seed",
+                "href": "/docs/guide/setupwallet/seedimport",
+                "docId": "guide/setupwallet/seedimport"
+              },
+              {
+                "type": "link",
+                "label": "Complete Setup",
+                "href": "/docs/guide/setupwallet/complete",
+                "docId": "guide/setupwallet/complete"
+              },
+              {
+                "type": "link",
+                "label": "Creating Wallet Password",
+                "href": "/docs/guide/setupwallet/walletpassword",
+                "docId": "guide/setupwallet/walletpassword"
+              }
+            ],
+            "href": "/docs/guide/setupwallet/"
+          },
+          {
+            "type": "link",
+            "label": "Complete",
+            "href": "/docs/guide/success/",
+            "docId": "guide/success/success"
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "guide/onboarding/wallet1": {
+      "id": "guide/onboarding/wallet1",
+      "title": "Screen 1",
+      "description": "Screen 1",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide/onboarding/wallet2": {
+      "id": "guide/onboarding/wallet2",
+      "title": "Screen 2",
+      "description": "Screen 2",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide/onboarding/wallet3": {
+      "id": "guide/onboarding/wallet3",
+      "title": "Screen 3",
+      "description": "Screen 3",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide/onboarding/wallet4": {
+      "id": "guide/onboarding/wallet4",
+      "title": "Screen 4",
+      "description": "Screen 4",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide/setupwallet/complete": {
+      "id": "guide/setupwallet/complete",
+      "title": "Complete Setup",
+      "description": "Seed Show Blur",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide/setupwallet/seedcreate": {
+      "id": "guide/setupwallet/seedcreate",
+      "title": "Creating Seed",
+      "description": "Seed Create",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide/setupwallet/seedimport": {
+      "id": "guide/setupwallet/seedimport",
+      "title": "Input Seed",
+      "description": "Warning",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide/setupwallet/setupwallet": {
+      "id": "guide/setupwallet/setupwallet",
+      "title": "Setup Wallet",
+      "description": "Setup Screen",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide/setupwallet/walletpassword": {
+      "id": "guide/setupwallet/walletpassword",
+      "title": "Creating Wallet Password",
+      "description": "Wallet Password",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide/splash": {
+      "id": "guide/splash",
+      "title": "Splash",
+      "description": "Splash",
+      "sidebar": "tutorialSidebar"
+    },
+    "guide/success/success": {
+      "id": "guide/success/success",
+      "title": "Complete",
+      "description": "Success Screen",
+      "sidebar": "tutorialSidebar"
+    },
+    "intall/setup-android": {
+      "id": "intall/setup-android",
+      "title": "Setup Environment For Android",
+      "description": "What you'll need",
+      "sidebar": "tutorialSidebar"
+    },
+    "intall/setup-mac": {
+      "id": "intall/setup-mac",
+      "title": "Setup Environment For iOS",
+      "description": "What you'll need",
+      "sidebar": "tutorialSidebar"
+    },
+    "intall/start-app": {
+      "id": "intall/start-app",
+      "title": "Start your app",
+      "description": "Run the android version:",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Introduction",
+      "description": "DigiMetaverse Wallet gives you full control over your self sovereign idenity. Manage payments, ownership and authentication in one single crossplatform Application.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

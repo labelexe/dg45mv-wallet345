@@ -1,0 +1,26 @@
+{
+  "unversionedId": "guide/guide copy/wallet1",
+  "id": "guide/guide copy/wallet1",
+  "title": "Onboarding Screen 1",
+  "description": "Splash Screen",
+  "source": "@site/docs/guide/guide copy/wallet1.md",
+  "sourceDirName": "guide/guide copy",
+  "slug": "/guide/guide copy/wallet1",
+  "permalink": "/docs/guide/guide copy/wallet1",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/guide copy/wallet1.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Splash Screen",
+    "permalink": "/docs/guide/guide copy/splash"
+  },
+  "next": {
+    "title": "Onboarding Screen 2",
+    "permalink": "/docs/guide/guide copy/wallet2"
+  }
+}

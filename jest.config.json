@@ -1,0 +1,12 @@
+{
+  "preset": "react-native",
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+
+  "transform": {},
+
+  "transformIgnorePatterns": [
+    "node_modules/(?!(@react-native|react-native|react-native-keychain|@react-navigation|react-native-element-dropdown|react-native-video|react-native-qrcode-svg|react-native-progress|react-native-haptic-feedback|react-native-randombytes|toggle-switch-react-native|react-native-url-polyfill)/)"
+  ],
+
+  "verbose": true
+}

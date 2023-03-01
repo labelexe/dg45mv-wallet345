@@ -1,0 +1,41 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.dgmvwallet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    
+    <application
+      android:name=".MainApplication"
+      android:label="@string/app_name"
+      android:icon="@mipmap/ic_launcher"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:allowBackup="false"
+      android:theme="@style/AppTheme">
+      <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:exported="true"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+        android:windowSoftInputMode="adjustResize">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+      </activity>
+      <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+
+      <service
+        android:name=".autofill.DGMVAutofillService"
+        android:label="DGMV Autofill Service"
+        android:exported="true"
+        android:permission="android.permission.BIND_AUTOFILL_SERVICE">
+        <intent-filter>
+          <action android:name="android.service.autofill.AutofillService" />
+        </intent-filter>
+        <meta-data
+          android:name="android.autofill"
+          android:resource="@xml/service_configuration"
+        />
+      </service>      
+    </application>
+</manifest>

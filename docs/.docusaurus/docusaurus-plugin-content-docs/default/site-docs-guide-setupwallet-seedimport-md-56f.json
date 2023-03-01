@@ -1,0 +1,26 @@
+{
+  "unversionedId": "guide/setupwallet/seedimport",
+  "id": "guide/setupwallet/seedimport",
+  "title": "Input Seed",
+  "description": "Warning",
+  "source": "@site/docs/guide/setupwallet/seedimport.md",
+  "sourceDirName": "guide/setupwallet",
+  "slug": "/guide/setupwallet/seedimport",
+  "permalink": "/docs/guide/setupwallet/seedimport",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/setupwallet/seedimport.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating Seed",
+    "permalink": "/docs/guide/setupwallet/seedcreate"
+  },
+  "next": {
+    "title": "Complete Setup",
+    "permalink": "/docs/guide/setupwallet/complete"
+  }
+}

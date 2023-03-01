@@ -1,0 +1,22 @@
+{
+  "unversionedId": "guide/setup",
+  "id": "guide/setup",
+  "title": "Setup Wallet",
+  "description": "Setup Screen",
+  "source": "@site/docs/guide/setup.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/setup",
+  "permalink": "/docs/guide/setup",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Screen 4",
+    "permalink": "/docs/guide/onboarding/wallet4"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "/__docusaurus/debug-8d8": {
+    "component": "component---theme-debug-config-23-a-2ff",
+    "__routeContextModule": "__routeContextModule---docusaurus-debugfb-8-f64"
+  },
+  "/__docusaurus/debug/config-a93": {
+    "component": "component---theme-debug-config-23-a-2ff",
+    "__routeContextModule": "__routeContextModule---docusaurus-debugfb-8-f64"
+  },
+  "/__docusaurus/debug/content-e13": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---docusaurus-debug-content-246-9aa",
+    "__routeContextModule": "__routeContextModule---docusaurus-debugfb-8-f64"
+  },
+  "/__docusaurus/debug/globalData-5ad": {
+    "component": "component---theme-debug-global-dataede-0fa",
+    "__routeContextModule": "__routeContextModule---docusaurus-debugfb-8-f64"
+  },
+  "/__docusaurus/debug/metadata-549": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4",
+    "__routeContextModule": "__routeContextModule---docusaurus-debugfb-8-f64"
+  },
+  "/__docusaurus/debug/registry-076": {
+    "component": "component---theme-debug-registry-679-501",
+    "__routeContextModule": "__routeContextModule---docusaurus-debugfb-8-f64"
+  },
+  "/__docusaurus/debug/routes-d3e": {
+    "component": "component---theme-debug-routes-946-699",
+    "__routeContextModule": "__routeContextModule---docusaurus-debugfb-8-f64"
+  },
+  "/markdown-page-e94": {
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---markdown-page-393-028",
+    "__routeContextModule": "__routeContextModule---markdown-pageb-0-b-33a"
+  },
+  "/docs-dbd": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---docs-935-398",
+    "__routeContextModule": "__routeContextModule---docsff-3-bc2"
+  },
+  "/docs/guide/onboarding/wallet1-fd8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-onboarding-wallet-1-eee-2b7"
+  },
+  "/docs/guide/onboarding/wallet2-b80": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-onboarding-wallet-2766-d21"
+  },
+  "/docs/guide/onboarding/wallet3-137": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-onboarding-wallet-3-f-40-543"
+  },
+  "/docs/guide/onboarding/wallet4-d89": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-onboarding-wallet-48-fd-6d4"
+  },
+  "/docs/guide/setupwallet/-02d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-setupwallet-e-49-163"
+  },
+  "/docs/guide/setupwallet/complete-59e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-setupwallet-completea-30-c4d"
+  },
+  "/docs/guide/setupwallet/seedcreate-b81": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-setupwallet-seedcreatea-65-661"
+  },
+  "/docs/guide/setupwallet/seedimport-385": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-setupwallet-seedimport-56-f-399"
+  },
+  "/docs/guide/setupwallet/walletpassword-faf": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-setupwallet-walletpasswordf-91-086"
+  },
+  "/docs/guide/splash-71c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-splash-5-ca-485"
+  },
+  "/docs/guide/success/-6c9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-success-84-f-a15"
+  },
+  "/docs/intall/setup-android-49c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-intall-setup-android-9-a-9-92c"
+  },
+  "/docs/intall/setup-mac-296": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-intall-setup-mac-8-c-1-7b1"
+  },
+  "/docs/intall/start-app-25c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-intall-start-app-95-a-dc4"
+  },
+  "/docs/intro-aed": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/-f99": {
+    "component": "component---site-src-pages-index-jsc-4-f-f99",
+    "config": "config---5-e-9-4f3",
+    "__routeContextModule": "__routeContextModule---markdown-pageb-0-b-33a"
+  }
+}
